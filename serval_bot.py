@@ -7,7 +7,7 @@ from twitch import TwitchClient
 from discord.ext.commands import Bot
 
 my_bot=discord.Client()
-client=TwitchClient(client_id='r5f1qkc3lzn0c09x7v7orxd6dnsirr')
+client=TwitchClient(client_id='TWITICH ID')
 
 def twitchSearchByChannel(query):
 	#Just !Stream
@@ -75,5 +75,5 @@ def on_message(message):
 
 
 
-my_bot.run("MjkzNjA5MTE1NTY4MTc3MTUy.C7JOMQ.OlW8X37rg0gqpQ7sMkn5TCSclwY")
+my_bot.run("BOT ID FROM DISCORD APPS")
 
